@@ -1,0 +1,24 @@
+{
+  "weatherLocation": {
+    "name": "Pittsburgh",
+    "latitude": 40.4406,
+    "longitude": -79.9959,
+    "timeZone": "America/New_York"
+  },
+  "marketSymbols": ["VTI", "VXUS", "AAPL"],
+  "clockCities": [
+    {
+      "name": "New York",
+      "timeZoneIdentifier": "America/New_York"
+    },
+    {
+      "name": "San Francisco",
+      "timeZoneIdentifier": "America/Los_Angeles"
+    },
+    {
+      "name": "Singapore",
+      "timeZoneIdentifier": "Asia/Singapore"
+    }
+  ],
+  "gmailEnabled": true
+}

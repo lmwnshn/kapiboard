@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0000010000000000000001 /* DashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000101 /* DashboardApp.swift */; };
+		4A0000010000000000000002 /* DashboardRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000102 /* DashboardRootView.swift */; };
+		4A0000010000000000000003 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000103 /* DashboardViewModel.swift */; };
+		50B000000000000000000001 /* ArxivDigestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B000000000000000000101 /* ArxivDigestService.swift */; };
+		4C0000010000000000000001 /* GoogleOAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0000010000000000000101 /* GoogleOAuthManager.swift */; };
+		4A0000010000000000000004 /* DashboardSnapshot.swift in App Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000104 /* DashboardSnapshot.swift */; };
+		4A0000010000000000000005 /* DashboardConfiguration.swift in App Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000105 /* DashboardConfiguration.swift */; };
+		4A0000010000000000000006 /* SnapshotStore.swift in App Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000106 /* SnapshotStore.swift */; };
+		4A0000010000000000000008 /* Providers.swift in App Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000108 /* Providers.swift */; };
+		4D0000000000000000000001 /* EventKitAgendaProvider.swift in App Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000101 /* EventKitAgendaProvider.swift */; };
+		4D0000000000000000000002 /* GoogleCalendarProvider.swift in App Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000102 /* GoogleCalendarProvider.swift */; };
+		4D0000000000000000000003 /* OpenMeteoWeatherProvider.swift in App Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000103 /* OpenMeteoWeatherProvider.swift */; };
+		4D0000000000000000000004 /* YahooChartMarketProvider.swift in App Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000104 /* YahooChartMarketProvider.swift */; };
+		4D0000000000000000000005 /* GmailAPIProvider.swift in App Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000105 /* GmailAPIProvider.swift */; };
+		4D0000000000000000000006 /* SystemClockProvider.swift in App Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000106 /* SystemClockProvider.swift */; };
+		4F0000000000000000000001 /* ArxivDigest.swift in App Sources */ = {isa = PBXBuildFile; fileRef = 4F0000000000000000000101 /* ArxivDigest.swift */; };
+		4A0000010000000000000009 /* DashboardWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000109 /* DashboardWidget.swift */; };
+		4E0000000000000000000001 /* WidgetInfrastructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0000000000000000000101 /* WidgetInfrastructure.swift */; };
+		4E0000000000000000000002 /* KapiBoardWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0000000000000000000102 /* KapiBoardWidgets.swift */; };
+		4E0000000000000000000006 /* LinkLauncherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0000000000000000000103 /* LinkLauncherWidget.swift */; };
+		4A000001000000000000000A /* DashboardSnapshot.swift in Widget Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000104 /* DashboardSnapshot.swift */; };
+		4A000001000000000000000B /* DashboardConfiguration.swift in Widget Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000105 /* DashboardConfiguration.swift */; };
+		4A000001000000000000000C /* SnapshotStore.swift in Widget Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000106 /* SnapshotStore.swift */; };
+		4A000001000000000000000E /* Providers.swift in Widget Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000108 /* Providers.swift */; };
+		4D0000000000000000000007 /* EventKitAgendaProvider.swift in Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000101 /* EventKitAgendaProvider.swift */; };
+		4D0000000000000000000008 /* GoogleCalendarProvider.swift in Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000102 /* GoogleCalendarProvider.swift */; };
+		4D0000000000000000000009 /* OpenMeteoWeatherProvider.swift in Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000103 /* OpenMeteoWeatherProvider.swift */; };
+		4D000000000000000000000A /* YahooChartMarketProvider.swift in Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000104 /* YahooChartMarketProvider.swift */; };
+		4D000000000000000000000B /* GmailAPIProvider.swift in Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000105 /* GmailAPIProvider.swift */; };
+		4D000000000000000000000C /* SystemClockProvider.swift in Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000106 /* SystemClockProvider.swift */; };
+		4F0000000000000000000003 /* ArxivDigest.swift in Widget Sources */ = {isa = PBXBuildFile; fileRef = 4F0000000000000000000101 /* ArxivDigest.swift */; };
+		4A000001000000000000000F /* KapiBoardWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000202 /* KapiBoardWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4B0000010000000000000010 /* DashboardWidget.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000109 /* DashboardWidget.swift */; };
+		4E0000000000000000000003 /* WidgetInfrastructure.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4E0000000000000000000101 /* WidgetInfrastructure.swift */; };
+		4E0000000000000000000004 /* KapiBoardWidgets.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4E0000000000000000000102 /* KapiBoardWidgets.swift */; };
+		4B0000010000000000000011 /* DashboardSnapshot.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000104 /* DashboardSnapshot.swift */; };
+		4B0000010000000000000012 /* DashboardConfiguration.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000105 /* DashboardConfiguration.swift */; };
+		4B0000010000000000000013 /* SnapshotStore.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000106 /* SnapshotStore.swift */; };
+		4B0000010000000000000015 /* Providers.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4A0000010000000000000108 /* Providers.swift */; };
+		4D000000000000000000000D /* EventKitAgendaProvider.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000101 /* EventKitAgendaProvider.swift */; };
+		4D000000000000000000000E /* GoogleCalendarProvider.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000102 /* GoogleCalendarProvider.swift */; };
+		4D000000000000000000000F /* OpenMeteoWeatherProvider.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000103 /* OpenMeteoWeatherProvider.swift */; };
+		4D0000000000000000000010 /* YahooChartMarketProvider.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000104 /* YahooChartMarketProvider.swift */; };
+		4D0000000000000000000011 /* GmailAPIProvider.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000105 /* GmailAPIProvider.swift */; };
+		4D0000000000000000000012 /* SystemClockProvider.swift in Detail Widget Sources */ = {isa = PBXBuildFile; fileRef = 4D0000000000000000000106 /* SystemClockProvider.swift */; };
+		4B0000010000000000000016 /* KapiBoardDetailWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B0000010000000000000203 /* KapiBoardDetailWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		50A000000000000000000001 /* KapiBoardArxivWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 50A000000000000000000202 /* KapiBoardArxivWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		50A000000000000000000002 /* ArxivDigest.swift in Arxiv Widget Sources */ = {isa = PBXBuildFile; fileRef = 4F0000000000000000000101 /* ArxivDigest.swift */; };
+		50A000000000000000000003 /* ArxivDigestWidget.swift in Arxiv Widget Sources */ = {isa = PBXBuildFile; fileRef = 4F0000000000000000000102 /* ArxivDigestWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A0000010000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0000010000000000000501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0000010000000000000402;
+			remoteInfo = KapiBoardWidgetExtension;
+		};
+		4B0000010000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0000010000000000000501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B0000010000000000000403;
+			remoteInfo = KapiBoardDetailWidgetExtension;
+		};
+		50A000000000000000000101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0000010000000000000501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A000000000000000000401;
+			remoteInfo = KapiBoardArxivWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A0000010000000000000701 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4A000001000000000000000F /* KapiBoardWidgetExtension.appex in Embed App Extensions */,
+				4B0000010000000000000016 /* KapiBoardDetailWidgetExtension.appex in Embed App Extensions */,
+				50A000000000000000000001 /* KapiBoardArxivWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A0000010000000000000101 /* DashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardApp.swift; sourceTree = "<group>"; };
+		4A0000010000000000000102 /* DashboardRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardRootView.swift; sourceTree = "<group>"; };
+		4A0000010000000000000103 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		50B000000000000000000101 /* ArxivDigestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArxivDigestService.swift; sourceTree = "<group>"; };
+		4C0000010000000000000101 /* GoogleOAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleOAuthManager.swift; sourceTree = "<group>"; };
+		4A0000010000000000000104 /* DashboardSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardSnapshot.swift; sourceTree = "<group>"; };
+		4A0000010000000000000105 /* DashboardConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardConfiguration.swift; sourceTree = "<group>"; };
+		4A0000010000000000000106 /* SnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotStore.swift; sourceTree = "<group>"; };
+		4A0000010000000000000108 /* Providers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Providers.swift; sourceTree = "<group>"; };
+		4D0000000000000000000101 /* EventKitAgendaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitAgendaProvider.swift; sourceTree = "<group>"; };
+		4D0000000000000000000102 /* GoogleCalendarProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCalendarProvider.swift; sourceTree = "<group>"; };
+		4D0000000000000000000103 /* OpenMeteoWeatherProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMeteoWeatherProvider.swift; sourceTree = "<group>"; };
+		4D0000000000000000000104 /* YahooChartMarketProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooChartMarketProvider.swift; sourceTree = "<group>"; };
+		4D0000000000000000000105 /* GmailAPIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailAPIProvider.swift; sourceTree = "<group>"; };
+		4D0000000000000000000106 /* SystemClockProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemClockProvider.swift; sourceTree = "<group>"; };
+		4F0000000000000000000101 /* ArxivDigest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArxivDigest.swift; sourceTree = "<group>"; };
+		4A0000010000000000000109 /* DashboardWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardWidget.swift; sourceTree = "<group>"; };
+		4E0000000000000000000101 /* WidgetInfrastructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetInfrastructure.swift; sourceTree = "<group>"; };
+		4E0000000000000000000102 /* KapiBoardWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapiBoardWidgets.swift; sourceTree = "<group>"; };
+		4E0000000000000000000103 /* LinkLauncherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkLauncherWidget.swift; sourceTree = "<group>"; };
+		4F0000000000000000000102 /* ArxivDigestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArxivDigestWidget.swift; sourceTree = "<group>"; };
+		4A000001000000000000010A /* AppInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppInfo.plist; sourceTree = "<group>"; };
+		4A000001000000000000010B /* WidgetInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WidgetInfo.plist; sourceTree = "<group>"; };
+		4B000001000000000000010C /* DetailWidgetInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ../DetailWidgetInfo.plist; sourceTree = "<group>"; };
+		50A000000000000000000201 /* ArxivWidgetInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ../ArxivWidgetInfo.plist; sourceTree = "<group>"; };
+		4A0000010000000000000201 /* KapiBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KapiBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0000010000000000000202 /* KapiBoardWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KapiBoardWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0000010000000000000203 /* KapiBoardDetailWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KapiBoardDetailWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A000000000000000000202 /* KapiBoardArxivWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KapiBoardArxivWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0000010000000000000602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0000010000000000000605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0000010000000000000606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A000000000000000000301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50C000000000000000000001 /* Copy arXiv Updater */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/scripts/update_arxiv_digest.py",
+			);
+			name = "Copy arXiv Updater";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/scripts/update_arxiv_digest.py",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nmkdir -p \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/scripts\"\ncp \"$SRCROOT/scripts/update_arxiv_digest.py\" \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/scripts/update_arxiv_digest.py\"\nchmod 755 \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/scripts/update_arxiv_digest.py\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0000010000000000000801 = {
+			isa = PBXGroup;
+			children = (
+				4A0000010000000000000802 /* DashboardApp */,
+				4A0000010000000000000803 /* DashboardCore */,
+				4A0000010000000000000804 /* DashboardWidget */,
+				4A0000010000000000000805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0000010000000000000802 /* DashboardApp */ = {
+			isa = PBXGroup;
+			children = (
+				4A000001000000000000010A /* AppInfo.plist */,
+				4A0000010000000000000101 /* DashboardApp.swift */,
+				4A0000010000000000000102 /* DashboardRootView.swift */,
+				4A0000010000000000000103 /* DashboardViewModel.swift */,
+				50B000000000000000000101 /* ArxivDigestService.swift */,
+				4C0000010000000000000101 /* GoogleOAuthManager.swift */,
+			);
+			name = DashboardApp;
+			path = DashboardApp/Sources;
+			sourceTree = "<group>";
+		};
+		4A0000010000000000000803 /* DashboardCore */ = {
+			isa = PBXGroup;
+			children = (
+				4A0000010000000000000104 /* DashboardSnapshot.swift */,
+				4A0000010000000000000105 /* DashboardConfiguration.swift */,
+				4A0000010000000000000106 /* SnapshotStore.swift */,
+				4A0000010000000000000108 /* Providers.swift */,
+				4D0000000000000000000101 /* EventKitAgendaProvider.swift */,
+				4D0000000000000000000102 /* GoogleCalendarProvider.swift */,
+				4D0000000000000000000103 /* OpenMeteoWeatherProvider.swift */,
+				4D0000000000000000000104 /* YahooChartMarketProvider.swift */,
+				4D0000000000000000000105 /* GmailAPIProvider.swift */,
+				4D0000000000000000000106 /* SystemClockProvider.swift */,
+				4F0000000000000000000101 /* ArxivDigest.swift */,
+			);
+			name = DashboardCore;
+			path = DashboardCore/Sources/DashboardCore;
+			sourceTree = "<group>";
+		};
+		4A0000010000000000000804 /* DashboardWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4A000001000000000000010B /* WidgetInfo.plist */,
+				4B000001000000000000010C /* DetailWidgetInfo.plist */,
+				50A000000000000000000201 /* ArxivWidgetInfo.plist */,
+				4A0000010000000000000109 /* DashboardWidget.swift */,
+				4E0000000000000000000101 /* WidgetInfrastructure.swift */,
+				4E0000000000000000000102 /* KapiBoardWidgets.swift */,
+				4E0000000000000000000103 /* LinkLauncherWidget.swift */,
+				4F0000000000000000000102 /* ArxivDigestWidget.swift */,
+			);
+			name = DashboardWidget;
+			path = DashboardWidget/Sources;
+			sourceTree = "<group>";
+		};
+		4A0000010000000000000805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0000010000000000000201 /* KapiBoard.app */,
+				4A0000010000000000000202 /* KapiBoardWidgetExtension.appex */,
+				4B0000010000000000000203 /* KapiBoardDetailWidgetExtension.appex */,
+				50A000000000000000000202 /* KapiBoardArxivWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0000010000000000000401 /* KapiBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0000010000000000000902 /* Build configuration list for PBXNativeTarget "KapiBoard" */;
+			buildPhases = (
+				4A0000010000000000000601 /* Sources */,
+				4A0000010000000000000602 /* Frameworks */,
+				4A0000010000000000000701 /* Embed App Extensions */,
+				50C000000000000000000001 /* Copy arXiv Updater */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0000010000000000000302 /* PBXTargetDependency */,
+				4B0000010000000000000303 /* PBXTargetDependency */,
+				50A000000000000000000402 /* PBXTargetDependency */,
+			);
+			name = KapiBoard;
+			productName = KapiBoard;
+			productReference = 4A0000010000000000000201 /* KapiBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A0000010000000000000402 /* KapiBoardWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0000010000000000000905 /* Build configuration list for PBXNativeTarget "KapiBoardWidgetExtension" */;
+			buildPhases = (
+				4A0000010000000000000604 /* Sources */,
+				4A0000010000000000000605 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KapiBoardWidgetExtension;
+			productName = KapiBoardWidgetExtension;
+			productReference = 4A0000010000000000000202 /* KapiBoardWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4B0000010000000000000403 /* KapiBoardDetailWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B000001000000000000090C /* Build configuration list for PBXNativeTarget "KapiBoardDetailWidgetExtension" */;
+			buildPhases = (
+				4B0000010000000000000607 /* Sources */,
+				4B0000010000000000000606 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KapiBoardDetailWidgetExtension;
+			productName = KapiBoardDetailWidgetExtension;
+			productReference = 4B0000010000000000000203 /* KapiBoardDetailWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		50A000000000000000000401 /* KapiBoardArxivWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A000000000000000000903 /* Build configuration list for PBXNativeTarget "KapiBoardArxivWidgetExtension" */;
+			buildPhases = (
+				50A000000000000000000302 /* Sources */,
+				50A000000000000000000301 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KapiBoardArxivWidgetExtension;
+			productName = KapiBoardArxivWidgetExtension;
+			productReference = 50A000000000000000000202 /* KapiBoardArxivWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0000010000000000000501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					4A0000010000000000000401 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					4A0000010000000000000402 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					4B0000010000000000000403 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					50A000000000000000000401 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A0000010000000000000901 /* Build configuration list for PBXProject "KapiBoard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0000010000000000000801;
+			productRefGroup = 4A0000010000000000000805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0000010000000000000401 /* KapiBoard */,
+				4A0000010000000000000402 /* KapiBoardWidgetExtension */,
+				4B0000010000000000000403 /* KapiBoardDetailWidgetExtension */,
+				50A000000000000000000401 /* KapiBoardArxivWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0000010000000000000601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0000010000000000000001 /* DashboardApp.swift in Sources */,
+				4A0000010000000000000002 /* DashboardRootView.swift in Sources */,
+				4A0000010000000000000003 /* DashboardViewModel.swift in Sources */,
+				50B000000000000000000001 /* ArxivDigestService.swift in Sources */,
+				4C0000010000000000000001 /* GoogleOAuthManager.swift in Sources */,
+				4A0000010000000000000004 /* DashboardSnapshot.swift in App Sources */,
+				4A0000010000000000000005 /* DashboardConfiguration.swift in App Sources */,
+				4A0000010000000000000006 /* SnapshotStore.swift in App Sources */,
+				4A0000010000000000000008 /* Providers.swift in App Sources */,
+				4D0000000000000000000001 /* EventKitAgendaProvider.swift in App Sources */,
+				4D0000000000000000000002 /* GoogleCalendarProvider.swift in App Sources */,
+				4D0000000000000000000003 /* OpenMeteoWeatherProvider.swift in App Sources */,
+				4D0000000000000000000004 /* YahooChartMarketProvider.swift in App Sources */,
+				4D0000000000000000000005 /* GmailAPIProvider.swift in App Sources */,
+				4D0000000000000000000006 /* SystemClockProvider.swift in App Sources */,
+				4F0000000000000000000001 /* ArxivDigest.swift in App Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0000010000000000000604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0000010000000000000009 /* DashboardWidget.swift in Sources */,
+				4E0000000000000000000001 /* WidgetInfrastructure.swift in Sources */,
+				4E0000000000000000000002 /* KapiBoardWidgets.swift in Sources */,
+				4E0000000000000000000006 /* LinkLauncherWidget.swift in Sources */,
+				4A000001000000000000000A /* DashboardSnapshot.swift in Widget Sources */,
+				4A000001000000000000000B /* DashboardConfiguration.swift in Widget Sources */,
+				4A000001000000000000000C /* SnapshotStore.swift in Widget Sources */,
+				4A000001000000000000000E /* Providers.swift in Widget Sources */,
+				4D0000000000000000000007 /* EventKitAgendaProvider.swift in Widget Sources */,
+				4D0000000000000000000008 /* GoogleCalendarProvider.swift in Widget Sources */,
+				4D0000000000000000000009 /* OpenMeteoWeatherProvider.swift in Widget Sources */,
+				4D000000000000000000000A /* YahooChartMarketProvider.swift in Widget Sources */,
+				4D000000000000000000000B /* GmailAPIProvider.swift in Widget Sources */,
+				4D000000000000000000000C /* SystemClockProvider.swift in Widget Sources */,
+				4F0000000000000000000003 /* ArxivDigest.swift in Widget Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0000010000000000000607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0000010000000000000010 /* DashboardWidget.swift in Detail Widget Sources */,
+				4E0000000000000000000003 /* WidgetInfrastructure.swift in Detail Widget Sources */,
+				4E0000000000000000000004 /* KapiBoardWidgets.swift in Detail Widget Sources */,
+				4B0000010000000000000011 /* DashboardSnapshot.swift in Detail Widget Sources */,
+				4B0000010000000000000012 /* DashboardConfiguration.swift in Detail Widget Sources */,
+				4B0000010000000000000013 /* SnapshotStore.swift in Detail Widget Sources */,
+				4B0000010000000000000015 /* Providers.swift in Detail Widget Sources */,
+				4D000000000000000000000D /* EventKitAgendaProvider.swift in Detail Widget Sources */,
+				4D000000000000000000000E /* GoogleCalendarProvider.swift in Detail Widget Sources */,
+				4D000000000000000000000F /* OpenMeteoWeatherProvider.swift in Detail Widget Sources */,
+				4D0000000000000000000010 /* YahooChartMarketProvider.swift in Detail Widget Sources */,
+				4D0000000000000000000011 /* GmailAPIProvider.swift in Detail Widget Sources */,
+				4D0000000000000000000012 /* SystemClockProvider.swift in Detail Widget Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A000000000000000000302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A000000000000000000002 /* ArxivDigest.swift in Arxiv Widget Sources */,
+				50A000000000000000000003 /* ArxivDigestWidget.swift in Arxiv Widget Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A0000010000000000000302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0000010000000000000402 /* KapiBoardWidgetExtension */;
+			targetProxy = 4A0000010000000000000301 /* PBXContainerItemProxy */;
+		};
+		4B0000010000000000000303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B0000010000000000000403 /* KapiBoardDetailWidgetExtension */;
+			targetProxy = 4B0000010000000000000301 /* PBXContainerItemProxy */;
+		};
+		50A000000000000000000402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A000000000000000000401 /* KapiBoardArxivWidgetExtension */;
+			targetProxy = 50A000000000000000000101 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A0000010000000000000903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		4A0000010000000000000904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		4A0000010000000000000906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DashboardApp/DashboardApp.entitlements;
+				CODE_SIGN_IDENTITY = "KapiBoard Local Code Signing";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DashboardApp/AppInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.wanshenl.KapiBoard;
+				PRODUCT_NAME = KapiBoard;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		4A0000010000000000000907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DashboardApp/DashboardApp.entitlements;
+				CODE_SIGN_IDENTITY = "KapiBoard Local Code Signing";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DashboardApp/AppInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.wanshenl.KapiBoard;
+				PRODUCT_NAME = KapiBoard;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		4A0000010000000000000908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DashboardWidget/DashboardWidget.entitlements;
+				CODE_SIGN_IDENTITY = "KapiBoard Local Code Signing";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DashboardWidget/WidgetInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.wanshenl.KapiBoard.WidgetExtension;
+				PRODUCT_NAME = KapiBoardWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		4A0000010000000000000909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DashboardWidget/DashboardWidget.entitlements;
+				CODE_SIGN_IDENTITY = "KapiBoard Local Code Signing";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DashboardWidget/WidgetInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.wanshenl.KapiBoard.WidgetExtension;
+				PRODUCT_NAME = KapiBoardWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		4B000001000000000000090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DashboardWidget/DashboardWidget.entitlements;
+				CODE_SIGN_IDENTITY = "KapiBoard Local Code Signing";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DashboardWidget/DetailWidgetInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_SWIFT_FLAGS = "-DDETAIL_WIDGET_EXTENSION";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wanshenl.KapiBoard.DetailWidgetExtension;
+				PRODUCT_NAME = KapiBoardDetailWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		4B000001000000000000090B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DashboardWidget/DashboardWidget.entitlements;
+				CODE_SIGN_IDENTITY = "KapiBoard Local Code Signing";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DashboardWidget/DetailWidgetInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_SWIFT_FLAGS = "-DDETAIL_WIDGET_EXTENSION";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wanshenl.KapiBoard.DetailWidgetExtension;
+				PRODUCT_NAME = KapiBoardDetailWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		50A000000000000000000901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DashboardWidget/DashboardWidget.entitlements;
+				CODE_SIGN_IDENTITY = "KapiBoard Local Code Signing";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DashboardWidget/ArxivWidgetInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_SWIFT_FLAGS = "-DARXIV_WIDGET_EXTENSION";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wanshenl.KapiBoard.ArxivWidgetExtension;
+				PRODUCT_NAME = KapiBoardArxivWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		50A000000000000000000902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DashboardWidget/DashboardWidget.entitlements;
+				CODE_SIGN_IDENTITY = "KapiBoard Local Code Signing";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DashboardWidget/ArxivWidgetInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_SWIFT_FLAGS = "-DARXIV_WIDGET_EXTENSION";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wanshenl.KapiBoard.ArxivWidgetExtension;
+				PRODUCT_NAME = KapiBoardArxivWidgetExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0000010000000000000901 /* Build configuration list for PBXProject "KapiBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0000010000000000000903 /* Debug */,
+				4A0000010000000000000904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4A0000010000000000000902 /* Build configuration list for PBXNativeTarget "KapiBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0000010000000000000906 /* Debug */,
+				4A0000010000000000000907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4A0000010000000000000905 /* Build configuration list for PBXNativeTarget "KapiBoardWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0000010000000000000908 /* Debug */,
+				4A0000010000000000000909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4B000001000000000000090C /* Build configuration list for PBXNativeTarget "KapiBoardDetailWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B000001000000000000090A /* Debug */,
+				4B000001000000000000090B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		50A000000000000000000903 /* Build configuration list for PBXNativeTarget "KapiBoardArxivWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A000000000000000000901 /* Debug */,
+				50A000000000000000000902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0000010000000000000501 /* Project object */;
+}

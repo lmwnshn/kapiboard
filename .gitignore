@@ -1,0 +1,13 @@
+.build/
+.swiftpm/
+DerivedData/
+dist/
+xcuserdata/
+*.xcuserstate
+.env
+.env.*
+!.env.example
+Config/*.local.json
+Config/*.secrets.json
+Config/google.json
+!Config/*.example.json
